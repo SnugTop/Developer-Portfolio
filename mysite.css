@@ -1,15 +1,39 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Manrope", sans-serif;
-}
 .content {
-  display: flex;
-  flex-direction: center;
-  background-color: alabaster;
+  display: flex; /* Enables flex layout */
+  flex-direction: row; /* Aligns children side by side */
+  align-items: flex-start;
+  background-color: #97d8b2;
 }
 
-.Title {
+.sidebar {
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Ensures vertical layout */
+  justify-content: flex-start;
+  margin-left: 30px;
+  padding-right: 30px;
+  width: 389px;
+  height: 1056px; /* Or '100vh' for full viewport height */
+  background-color: #687778;
+}
+
+/* Assuming '.Title' is a class applied to your title within .sidebar */
+.sidebar .Title {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0; /* Removes default padding */
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+.sidebar #ProfilePic {
+  display: flex;
+  align-items: center;
 }
