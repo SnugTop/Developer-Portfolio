@@ -52,6 +52,7 @@
   display: flex;
   justify-content: center;
   max-width: 100%;
+  margin-top: 10px;
   height: auto;
 }
 .Socials {
@@ -70,6 +71,7 @@
   color: white;
   text-decoration: none;
   font-size: 20px;
+  margin-top: 20px;
   margin: 0 10px;
 }
 .Socials #Email {
@@ -90,20 +92,26 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 40px;
+  padding: 28px;
 }
 .selection img {
   width: 45px;
   height: auto;
-  display: block; /* Removes bottom margin/whitespace inherent to inline elements */
+  display: block;
 }
 .selection {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* This distributes children evenly, including the first to the top and the last to the bottom */
-  align-items: center; /* Keeps items centered horizontally */
-  height: 100%; /* Ensure the container takes full height to distribute items over */
-  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
   margin-bottom: 20px;
   width: 100%;
+}
+.selection a:hover {
+  background-color: #97d8b2;
+  color: #687778;
+}
+#education {
+  background-color: #97d8b2;
 }
