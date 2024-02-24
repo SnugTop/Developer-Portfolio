@@ -1,39 +1,66 @@
 .content {
-  display: flex; /* Enables flex layout */
-  flex-direction: row; /* Aligns children side by side */
+  margin: 0;
+  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   background-color: #97d8b2;
 }
 
 .sidebar {
   display: flex;
-  flex-direction: column; /* Ensures vertical layout */
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
   margin-left: 30px;
   padding-right: 30px;
   width: 389px;
-  height: 1056px; /* Or '100vh' for full viewport height */
+  height: 1056px;
   background-color: #687778;
 }
 
-/* Assuming '.Title' is a class applied to your title within .sidebar */
-.sidebar .Title {
+.Title h1 {
+  display: flex;
+  justify-content: center;
+  width: 300px;
   margin-bottom: 20px;
+  font-size: extra-large;
+}
+.SubTitle h1 {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: extra-large;
 }
 
 .sidebar ul {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  padding-left: 0; /* Removes default padding */
+  padding-left: 0;
 }
 .main-content {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row wrap;
+  align-items: center;
   margin-left: 30px;
 }
 .sidebar #ProfilePic {
   display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+}
+.selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.Socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
