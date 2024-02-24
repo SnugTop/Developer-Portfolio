@@ -1,9 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
 .content {
   margin: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   background-color: #97d8b2;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 30px;
+}
+.main-content > * {
+  margin-bottom: 40px;
+}
+
+.main-content > *:last-child {
+  margin-bottom: 0;
 }
 
 .sidebar {
@@ -39,13 +59,6 @@
   flex-direction: column;
   list-style-type: none;
   padding-left: 0;
-}
-.main-content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-left: 30px;
 }
 
 .sidebar #ProfilePic {
@@ -112,6 +125,84 @@
   background-color: #97d8b2;
   color: #687778;
 }
-#education {
-  background-color: #97d8b2;
+
+#AboutMe {
+  /* This is the section that I am having trouble with */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: antiquewhite;
+}
+
+#Education {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%;
+}
+
+#Education h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#Education .GU h3,
+#Education .PCC h3,
+#Education .GU p,
+#Education .PCC p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#Education .GU,
+#Education .PCC {
+  margin-bottom: 1px;
+}
+
+#Skills {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  width: 50%;
+}
+
+.Skills-List ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Skills-List li {
+  width: 45%;
+}
+
+#Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%;
+}
+
+#Projects > div {
+  margin-bottom: 20px;
+}
+
+#Projects h2 {
+  margin-bottom: 15px;
+}
+
+#Projects .Project1,
+#Projects .project-2,
+#Projects .project-3 {
+  margin-bottom: 15px;
+}
+
+#Projects h4,
+#Projects p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#Contact {
+  display: flex;
+  flex-direction: column;
 }
