@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column; /* Ensures vertical layout */
   justify-content: flex-start;
+  align-items: center;
   margin-left: 30px;
   padding-right: 30px;
   width: 389px;
@@ -30,10 +31,12 @@
 .main-content {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
   margin-left: 30px;
 }
 .sidebar #ProfilePic {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  max-width: 100%; /* Makes the image responsive */
+  height: auto;
 }
