@@ -32,7 +32,7 @@
   align-items: center;
   margin-left: 30px;
   padding-right: 30px;
-  width: 389px;
+  width: 350px;
   height: 1056px;
   background-color: #687778;
 }
@@ -42,6 +42,7 @@
   color: white;
   justify-content: center;
   width: 300px;
+  margin-left: 25px;
   margin-bottom: 20px;
   font-size: extra-large;
 }
@@ -51,6 +52,7 @@
   color: white;
   width: 300px;
   margin-bottom: 20px;
+  margin-left: 25px;
   font-size: large;
 }
 
@@ -66,6 +68,7 @@
   justify-content: center;
   max-width: 100%;
   margin-top: 10px;
+  margin-left: 25px;
   height: auto;
 }
 .Socials {
@@ -85,6 +88,7 @@
   text-decoration: none;
   font-size: 20px;
   margin-top: 20px;
+  margin-left: 25px;
   margin: 0 10px;
 }
 .Socials #Email {
@@ -169,6 +173,7 @@
 .Skills-List ul {
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
   justify-content: center;
 }
 
@@ -183,10 +188,6 @@
   width: 75%;
 }
 
-#Projects > div {
-  margin-bottom: 20px;
-}
-
 #Projects h2 {
   margin-bottom: 15px;
 }
@@ -197,11 +198,6 @@
   margin-bottom: 15px;
 }
 
-#Projects h4,
-#Projects p {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
 #Contact {
   display: flex;
   flex-direction: column;
