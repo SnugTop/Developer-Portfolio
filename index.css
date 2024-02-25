@@ -19,7 +19,7 @@
   margin-left: 30px;
 }
 .main-content > * {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .main-content > *:last-child {
@@ -175,6 +175,10 @@
   align-items: flex-start;
   width: 50%;
 }
+#Experience .Internship,
+#Experience .RA {
+  padding: 8px;
+}
 .Edu_Ex {
   display: flex;
   justify-content: space-between;
@@ -220,7 +224,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 20px 0 0; /* Adjusted to remove left padding */
 }
 
 .contact-info {
@@ -231,7 +235,7 @@
 
 .Resume {
   margin-left: auto;
-  margin-right: 150px;
+  margin-right: 20px; /* Adjusted for consistent spacing with the right edge */
   background-color: #687778;
   width: 150px;
   border-radius: 10px;
