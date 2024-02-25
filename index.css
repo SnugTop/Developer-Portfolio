@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  background-color: #97d8b2;
+  background-color: #82a7a6;
 }
 
 .main-content {
@@ -19,7 +19,7 @@
   margin-left: 30px;
 }
 .main-content > * {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .main-content > *:last-child {
@@ -33,7 +33,7 @@
   margin-left: 30px;
   width: 350px;
   height: 1056px;
-  background-color: #687778;
+  background-color: #2a3c3b;
 }
 
 .Title h1 {
@@ -106,7 +106,7 @@
 }
 
 .selection a {
-  color: rgb(0, 0, 0);
+  color: #687778;
   text-decoration: none;
   font-size: 20px;
 }
@@ -133,23 +133,22 @@
   width: 100%;
 }
 .selection a:hover {
-  background-color: #97d8b2;
-  color: #687778;
+  text-decoration: underline;
+  color: #97d8b2;
 }
 
 #AboutMe {
-  /* This is the section that I am having trouble with */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: antiquewhite;
+  width: 95%;
 }
 
 #Education {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 75%;
+  width: 50%;
 }
 
 #Education h2 {
@@ -170,22 +169,27 @@
   margin-bottom: 1px;
 }
 
-#Skills {
+#Experience {
   display: flex;
   flex-direction: column;
-  align-items: right;
+  align-items: flex-start;
   width: 50%;
+}
+.Edu_Ex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.Skills-List {
+  display: flex;
 }
 
 .Skills-List ul {
-  display: flex;
-  flex-wrap: wrap;
+  flex: 1;
+  padding: 0;
   list-style-type: none;
-  justify-content: center;
-}
-
-.Skills-List li {
-  width: 45%;
 }
 
 #Projects {
@@ -195,17 +199,60 @@
   width: 75%;
 }
 
-#Projects h2 {
+#Projects .Project1,
+#Projects .Project-2,
+#Projects .Project-3,
+#Projects .Project-4 {
   margin-bottom: 15px;
 }
+#Projects a {
+  text-decoration: none;
+  color: black;
+}
 
-#Projects .Project1,
-#Projects .project-2,
-#Projects .project-3 {
-  margin-bottom: 15px;
+#Projects a:hover {
+  text-decoration: underline;
+  color: #97d8b2;
 }
 
 #Contact {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.contact-info {
+  display: flex;
   flex-direction: column;
+  flex-grow: 1;
+}
+
+.Resume {
+  margin-left: auto;
+  margin-right: 150px;
+  background-color: #687778;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.Resume a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.Resume:hover {
+  background-color: #97d8b2;
+}
+
+.Resume img {
+  margin-right: 8px;
 }
