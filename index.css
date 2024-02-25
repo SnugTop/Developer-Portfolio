@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+.content {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #82a7a6;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 30px;
+}
+.main-content > * {
+  margin-bottom: 28px;
+}
+
+.main-content > *:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  width: 350px;
+  height: 1056px;
+  background-color: #2a3c3b;
+}
+
+.Title h1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: extra-large;
+}
+.Subtitle h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar #ProfilePic {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin-top: 10px;
+  height: auto;
+}
+.Socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #687778;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin: 0 10px;
+}
+.Socials #Email {
+  margin-top: 8px;
+}
+.Socials a:hover {
+  background-color: #97d8b2;
+  color: #687778;
+}
+
+.BlackBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 350px;
+  height: 20px;
+  background-color: black;
+}
+
+.selection a {
+  color: #687778;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.selection ul li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 35px;
+}
+.selection img {
+  width: 25px;
+  height: 25px;
+  display: flex;
+}
+.selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  height: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.selection a:hover {
+  text-decoration: underline;
+  color: #97d8b2;
+}
+
+#AboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 95%;
+}
+
+#Education {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+#Education h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#Education .GU h3,
+#Education .PCC h3,
+#Education .GU p,
+#Education .PCC p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#Education .GU,
+#Education .PCC {
+  margin-bottom: 1px;
+}
+
+#Experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+#Experience .Internship,
+#Experience .RA {
+  padding: 8px;
+}
+.Edu_Ex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.Skills-List {
+  display: flex;
+}
+
+.Skills-List ul {
+  flex: 1;
+  padding: 0;
+  list-style-type: none;
+}
+
+#Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%;
+}
+
+#Projects .Project1,
+#Projects .Project-2,
+#Projects .Project-3,
+#Projects .Project-4 {
+  margin-bottom: 15px;
+}
+#Projects a {
+  text-decoration: none;
+  color: black;
+}
+
+#Projects a:hover {
+  text-decoration: underline;
+  color: #97d8b2;
+}
+
+#Contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 0; /* Adjusted to remove left padding */
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.Resume {
+  margin-left: auto;
+  margin-right: 20px; /* Adjusted for consistent spacing with the right edge */
+  background-color: #687778;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.Resume a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.Resume:hover {
+  background-color: #97d8b2;
+}
+
+.Resume img {
+  margin-right: 8px;
+}
